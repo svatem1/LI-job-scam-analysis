@@ -110,9 +110,3 @@ All data is exfiltrated via HTTP.
 Quite an assignment, honestly 🙂
 
 If you're interested in this kind of reverse engineering, feel free to explore further—I definitely had fun digging into it.
-"""
-
-output_path = "/mnt/data/malicious_analysis.md"
-convert_text(md_content, 'md', format='md', outputfile=output_path, extra_args=['--standalone'])
-
-output_path
